@@ -1,0 +1,43 @@
+Microsoft Question & Answer
+
+Q1 non negative integers list [10,2]
+output 210
+
+A:- 
+lst=[10,2]
+lst.reverse()
+lst_st=str(lst)[1:-1]
+b=''.join(str(lst_st).split(','))
+print(''.join(b.split()))
+
+Q2  list =[3,30,34,5,9]
+output
+9534330
+
+A:-
+def las2swap(lst):
+    size=len(lst)
+    temp=lst[-2]
+    lst[-2]=lst[-1]
+    lst[-1]=temp
+    return lst
+
+list =[3,30,34,5,9]
+list.reverse()
+las2swap(list)
+lst_st=str(list)[1:-1]
+b=''.join(str(lst_st).split(','))
+print(''.join(b.split()))
+
+
+Q3 list =[2,7,11,15]
+target=9
+find if two no present in list sum to the target
+
+A:-
+list =[2,7,11,15]
+k=9
+for i in range(-n,0):
+    if(list[i]+list[i+1]==k):
+        print(list[i],list[i+1])
+
