@@ -1,0 +1,12 @@
+how to remove [] and , from a list through python
+
+lst_st=str(lst)[1:-1] #remove [] 
+print(''.join(str(lst_st).split(','))) #remove ,
+
+how to perform negative loop in python
+for i in range(-n,0):
+	print(i)
+
+how to perform reversed loop
+for i in reversed(range(N)):
+	print(i)
